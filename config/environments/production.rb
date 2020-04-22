@@ -47,7 +47,8 @@ Rails.application.configure do
   # config.action_cable.allowed_request_origins = [ 'http://example.com', /http:\/\/example.*/ ]
   config.web_socket_server_url = "wss:://oh-my-messenger.herokuapp.com/cable"
   config.action_cable.allowed_request_origins = ["https://oh-my-messenger.herokuapp.com", "http://oh-my-messenger.herokuapp.com"]
-  
+    # => reference: https://blog.heroku.com/real_time_rails_implementing_websockets_in_rails_5_with_action_cable
+    
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
 
