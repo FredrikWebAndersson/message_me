@@ -6,5 +6,5 @@ test:
 
 production:
   adapter: redis
-  url: redis://h:p42149fb20ab6b59eaca9cf9f4e6ef9ae4f63e8c5c6d6205fdbf54d59aac6ada2@ec2-3-86-75-248.compute-1.amazonaws.com:25349
-  channel_prefix: message_me_production
+  url: redis://redistogo:b84095fb52d0915819d6ae8b364b28d5@pike.redistogo.com:9680/
+
