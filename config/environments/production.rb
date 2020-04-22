@@ -92,7 +92,4 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  # Use heroku redis
-  config.web_socket_server_url = "wss://message-me-fredrik.herokuapp.com/cable"
-  config.action_cable.allowed_request_origins = ['https://message-me-fredrik.herokuapp.com', 'http://message-me-fredrik.herokuapp.com']
 end
